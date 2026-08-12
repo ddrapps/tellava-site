@@ -50,18 +50,11 @@
     .logo-stamp {
       width: 40px;
       height: 40px;
-      border-radius: 999px;
-      background: radial-gradient(circle at 30% 20%, #FF9800 0, #E76300 45%, #7A3900 100%);
-      box-shadow: 0 12px 32px rgba(0,0,0,0.45);
-      position: relative;
-      overflow: hidden;
-    }
-    .logo-stamp::after {
-      content: '';
-      position: absolute;
-      inset: 6px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,0.4);
+      display: block;
+      object-fit: contain;
+      border-radius: 0;
+      background: none;
+      box-shadow: none;
     }
     .brand-title {
       font-weight: 800;
